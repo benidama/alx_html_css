@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: antiquewhite;
+}
+
+main {
+  display: flex;
+  flex: auto;
+  flex-direction: row;
+}
+
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
+a table {
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.logo {
+  padding-top: 10px;
+  width: 100px;
+  height: 80px;
+}
+
+.heading {
+  margin-bottom: 5px;
+}
+
+.para {
+  margin-top: 5px;
+}
