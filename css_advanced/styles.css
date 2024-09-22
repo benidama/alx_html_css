@@ -131,3 +131,42 @@ h1 {
   font-family: Source Sans Pro;
   text-align: center;
 }
+
+.testimonial {
+  background: rgba(194, 113, 255, 1);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  width: 100%;
+  height: 392px;
+  gap: 50px;
+  opacity: 0px;
+}
+
+.asid-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: left;
+  gap: 5px;
+}
+
+.para3 {
+  width: 400px;
+  color: #d6d5d5;
+  font-size: 12px;
+  font-family: Source Sans Pro;
+}
+
+.img2 {
+  margin-top: 40px;
+}
+
+.name-p {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 3px;
+}
