@@ -9,7 +9,7 @@
   flex-direction: column;
   justify-content: center;
   justify-items: center;
-  height: 100vh;
+  height: 1910px;
 }
 
 .header-section {
@@ -160,7 +160,7 @@ h1 {
 }
 
 .img2 {
-  margin-top: 40px;
+  margin-top: 80px;
 }
 
 .name-p {
@@ -306,6 +306,14 @@ h1 {
   margin-top: 35px;
 }
 
+.hay {
+  margin-top: 35px;
+}
+
+.hiy {
+  margin-bottom: 35px;
+}
+
 .head0 {
   text-align: center;
   color: rgba(255, 255, 255, 1);
@@ -326,11 +334,17 @@ h1 {
   justify-content: center;
   justify-items: center;
   gap: 80px;
+  margin-bottom: 30px;
 }
 
+.fina {
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
 .gtt {
   color: rgba(7, 22, 41, 1);
   font-size: 20px;
+  margin-top: 20px;
 }
 
 .design {
@@ -347,9 +361,40 @@ h1 {
 }
 
 footer {
-  background-color: rgba(7, 22, 41, 1);
+  background: rgba(7, 22, 41, 1);
   display: flex;
   flex-direction: column;
   justify-content: center;
   justify-items: center;
+}
+
+#conte {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-items: center;
+  margin-top: 20px;
+}
+
+.img-look {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+  gap: 10px;
+}
+
+#unnom {
+  color: rgba(255, 255, 255, 1);
+  font-family: Source Sans Pro;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: left;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.social {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
