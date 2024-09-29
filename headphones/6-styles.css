@@ -1,0 +1,42 @@
+.pantagon {
+  height: 0;
+  width: 20px;
+  margin-top: 30px;
+  border-top: 20px solid #ff6565;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  position: absolute;
+}
+.pantagon:before {
+  position: absolute;
+  height: 0;
+  content: "";
+  width: 0;
+  border-bottom: 20px solid #ff6565;
+  border-left: 23px solid transparent;
+  border-right: 27px solid transparent;
+  bottom: 20px;
+  left: -16px;
+}
+
+.suc-con {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.containa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  gap: 50px;
+  position: relative;
+}
+
+.dispyedd {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+}
