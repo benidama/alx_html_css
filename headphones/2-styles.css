@@ -1,0 +1,43 @@
+#our-result {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  background-image: url(../headphones/images/headphones_hero_2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.containa {
+  display: flex;
+  flex-direction: row;
+  justify-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.pink-color {
+  width: 60px;
+  height: 40px;
+}
+
+.space-btn {
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .suc-con {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #containa {
+    flex-direction: column;
+  }
+  .suc-con {
+    flex-direction: column;
+  }
+}

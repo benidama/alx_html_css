@@ -1,0 +1,28 @@
+#contact-form {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.myh1 {
+  text-align: center;
+  color: rgba(7, 22, 41, 1);
+  font-family: SourceSansPro;
+  font-size: 18px;
+  line-height: 37.5px;
+}
+
+input {
+  width: 250px;
+  height: 29px;
+  gap: 0px;
+  opacity: 0px;
+  margin-left: 40%;
+  border-width: 0px 0px 1px 0px;
+  color: rgb(16, 31, 51);
+  font-family: SourceSansPro;
+  border-color: aliceblue;
+  font-size: 12px;
+  line-height: 20px;
+}
