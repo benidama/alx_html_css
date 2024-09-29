@@ -8,7 +8,7 @@
   flex-direction: column;
   justify-content: center;
   justify-items: center;
-  height: 2000px;
+  max-height: 1340px;
   width: 100%;
   font-family: "source-sans-pro";
 }
@@ -23,6 +23,7 @@
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
+  height: 500px;
 }
 
 .message-card {
@@ -42,7 +43,6 @@ ul {
 
 header {
   gap: 240px;
-  /* margin-top: 10px; */
   margin-bottom: 100px;
 }
 
@@ -146,11 +146,17 @@ button:active {
     display: none;
     color: var(--white);
   }
+  .container {
+    max-height: 1500px;
+  }
 }
 
 @media screen and (max-width: 480px) {
   header {
     width: 100%;
+  }
+  .container {
+    max-height: 1680px;
   }
   nav {
     margin: 0;
